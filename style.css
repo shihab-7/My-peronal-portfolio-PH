@@ -84,3 +84,38 @@ h2{
 footer p{
     text-align: center;
 }
+
+@media screen and (max-width:576px) {
+
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    p{
+        font-size: 0.7em;
+    }
+    .banner, .dream-big ,.experience-area{
+        background: none;
+    }
+    .flex-container{
+        flex-direction: column-reverse;
+        gap: 10px;
+        align-items: center;
+    }
+    .half-width{
+        width: auto;
+    }
+    #second-half{
+        display: none;
+    }
+    .experience-area h1{
+        width: auto;
+        font-size: 3em;
+    }
+    #card1, #card2{
+        width: fit-content;
+    }
+    
+}
